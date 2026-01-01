@@ -16,9 +16,9 @@ class McpConfig:
             env={
                 "MYSQL_HOST": "localhost",
                 "MYSQL_PORT": "3306",
-                "MYSQL_USER": "cmk",
-                "MYSQL_PASSWORD": "cmk",
-                "MYSQL_DATABASE": "cmk_mysql"
+                "MYSQL_USER": "<USER_NAME>",
+                "MYSQL_PASSWORD": "<PASSWORD>",
+                "MYSQL_DATABASE": "<DB_NAME>"
             } )
         return McpWorkbench( server_params=mysql_server_params )
 
